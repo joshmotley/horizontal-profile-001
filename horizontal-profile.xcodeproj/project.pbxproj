@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2669ED7F1BA3552800A32F9A /* FISTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2669ED7E1BA3552800A32F9A /* FISTableViewController.m */; };
+		2669ED811BA356BB00A32F9A /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2669ED801BA356BB00A32F9A /* Launch Screen.xib */; };
+		2669ED861BA357E800A32F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2669ED851BA357E800A32F9A /* Main.storyboard */; };
 		30B8F7AA2F22415C95D44EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5289C15D60B41DBBC7AADB2 /* Foundation.framework */; };
 		7615DE68A7FD408294BF581F /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD179C6C4A5A43839ECF32E8 /* FISAppDelegate.m */; };
 		D0D7835FFCD34B79AC2E7477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E798758BBF044A70BEE06836 /* main.m */; };
@@ -25,6 +28,10 @@
 
 /* Begin PBXFileReference section */
 		09CF2CF7400647758DF7FE78 /* horizontal-profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "horizontal-profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2669ED7D1BA3552800A32F9A /* FISTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTableViewController.h; sourceTree = "<group>"; };
+		2669ED7E1BA3552800A32F9A /* FISTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTableViewController.m; sourceTree = "<group>"; };
+		2669ED801BA356BB00A32F9A /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		2669ED851BA357E800A32F9A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2CFA4DAF6FC9457FA2C246E6 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43484FA67152489395F54DC3 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		6F5DB406E6C94332841A101B /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +102,7 @@
 			children = (
 				6F5DB406E6C94332841A101B /* FISAppDelegate.h */,
 				DD179C6C4A5A43839ECF32E8 /* FISAppDelegate.m */,
+				2669ED801BA356BB00A32F9A /* Launch Screen.xib */,
 				DE6B38C886034C4B98712280 /* Resources */,
 			);
 			path = "horizontal-profile";
@@ -103,6 +111,7 @@
 		6BB24D45AE334D7D94A9BDDF = {
 			isa = PBXGroup;
 			children = (
+				2669ED851BA357E800A32F9A /* Main.storyboard */,
 				5FEABB93D65B470DB86EFBD5 /* horizontal-profile */,
 				800D1F667AD84D82B668F07B /* UnitTests */,
 				FF6BA06AFAA64BA9B534F951 /* Frameworks */,
@@ -127,6 +136,8 @@
 			children = (
 				2CFA4DAF6FC9457FA2C246E6 /* Images.xcassets */,
 				53BDEF4431974CF08AA68F1C /* Other-Sources */,
+				2669ED7D1BA3552800A32F9A /* FISTableViewController.h */,
+				2669ED7E1BA3552800A32F9A /* FISTableViewController.m */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -220,7 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2669ED861BA357E800A32F9A /* Main.storyboard in Resources */,
 				E15752C0E46D4CEDACD0094B /* Images.xcassets in Resources */,
+				2669ED811BA356BB00A32F9A /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2669ED7F1BA3552800A32F9A /* FISTableViewController.m in Sources */,
 				7615DE68A7FD408294BF581F /* FISAppDelegate.m in Sources */,
 				D0D7835FFCD34B79AC2E7477 /* main.m in Sources */,
 			);
